@@ -22,8 +22,8 @@ public class Config {
     // choose different property files for different active profile
     if ("development".equals(activeProfile)) {
       resource = new ClassPathResource("/config/application-dev.properties");
-    } else if ("test".equals(activeProfile)) {
-      resource = new ClassPathResource("/config/application-test.properties");
+    // } else if ("test".equals(activeProfile)) {
+    //   resource = new ClassPathResource("/config/application-test.properties");
     } else {
       resource = new ClassPathResource("/config/application-prod.properties");
     }
