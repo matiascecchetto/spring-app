@@ -32,7 +32,7 @@ public class MainController {
 	}
 
 	// @CrossOrigin(origins = {"http://localhost:3000"})
-	@CrossOrigin(origins = {"https://react-app-mc.herokuapp.com/"})
+	@CrossOrigin(origins = {"https://react-app-mc.herokuapp.com"})
 	@GetMapping(path="/all")
 	public @ResponseBody Iterable<Pet> getAllPets() {
 		// This returns a JSON or XML with the users
