@@ -39,5 +39,8 @@ public class Pet {
 		this.email = email;
 	}
 
+  public String toString() {
+		return ("Pet: " + this.getName() );
+	}
 
 }
